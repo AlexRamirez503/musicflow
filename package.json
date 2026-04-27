@@ -1,0 +1,19 @@
+{
+  "name": "musicflow",
+  "version": "7.3.0",
+  "description": "Reproductor de música con Invidious",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc && vite build",
+    "dev": "tsx watch server/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "trpc": "^11.0.0",
+    "react": "^19.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
